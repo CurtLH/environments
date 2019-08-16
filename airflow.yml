@@ -1,13 +1,7 @@
-name: py37
+name: airflow
 channels:
   - anaconda
   - conda-forge
 dependencies:
   - python=3.7
-  - jupyterlab
-  - psycopg2
-  - pandas
-  - scikit-learn
-  - flask=1.0.3
-  - beautifulsoup4
-  - cookiecutter
+  - airflow-with-postgres
