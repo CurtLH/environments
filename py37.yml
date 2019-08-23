@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.7
   - jupyterlab
+  - black
   - psycopg2
   - pandas
   - scikit-learn
