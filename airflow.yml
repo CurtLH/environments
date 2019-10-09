@@ -5,9 +5,6 @@ channels:
 dependencies:
   - python=3.7
   - airflow-with-postgres
-  - gunicorn
-  - celery
-  - rabbitmq-server
   - psycopg2
   - requests
   - beautifulsoup4 
